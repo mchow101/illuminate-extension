@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Illuminate Extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://pgusd.illuminatehc.com/*"
+            ],
+            "js": [
+                "node_modules/jquery/dist/jquery.min.js", "extension.js"
+            ]
+        }
+    ]
+}
